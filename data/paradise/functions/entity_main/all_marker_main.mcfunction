@@ -1,0 +1,1 @@
+execute as @s[tag=scrabbler_mine] at @s run function paradise:scrabbler/execute_mine

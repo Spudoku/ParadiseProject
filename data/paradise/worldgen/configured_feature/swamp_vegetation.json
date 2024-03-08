@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "paradise:ooblum_tree_stunted",
+        "chance": 0.1
+      },
+      {
+        "feature": "paradise:muck_tree",
+        "chance": 0.3
+      }
+    ],
+    "default": "paradise:ooblum_tree_stunted"
+  }
+}

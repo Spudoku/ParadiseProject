@@ -1,0 +1,12 @@
+{
+    "feature": "paradise:patch_glowstone",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        }
+    ]
+}

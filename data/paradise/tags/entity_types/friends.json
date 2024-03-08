@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:iron_golem",
+	"minecraft:snow_golem",
+	"minecraft:wolf",
+	"minecraft:panda",
+	"minecraft:pig",
+	"minecraft:chicken",
+	"minecraft:cow",
+	"minecraft:llama",
+	"minecraft:sheep",
+	"minecraft:strider",
+	"minecraft:parrot",
+	"minecraft:squid",
+	"minecraft:turtle",
+	"minecraft:squid",
+	"minecraft:horse",
+	"minecraft:villager",
+	"minecraft:turtle",
+	"minecraft:ocelot",
+	"minecraft:horse",
+	"minecraft:fox",
+	"minecraft:mooshroom",
+	"minecraft:player"
+  ]
+}

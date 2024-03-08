@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:golden_carrot"
+		},
+		{
+			"item": "minecraft:golden_carrot"
+		},
+		{
+			"item": "minecraft:golden_apple"
+		},
+		{
+			"item": "minecraft:debug_stick"
+		},
+		{
+			"item": "minecraft:diamond_leggings"
+		}
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

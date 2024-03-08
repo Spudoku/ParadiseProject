@@ -1,0 +1,1 @@
+execute as @s[tag=sentry] run function sentry:sentry/sentry_main

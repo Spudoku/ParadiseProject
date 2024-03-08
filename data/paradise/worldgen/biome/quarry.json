@@ -1,0 +1,118 @@
+{
+	"temperature": 0.75,
+	"downfall": 0.4,
+	"precipitation": "rain",
+	"category": "plains",
+	"effects": {
+		"sky_color": 4851566,
+		"fog_color": 4851566,
+		"water_color": 4851566,
+		"water_fog_color": 4851566,
+		"grass_color": 2928923,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.basalt_deltas.additions",
+			"tick_chance": 0.003
+		},
+		"music": {
+			"sound": "minecraft:music.nether.basalt_deltas",
+			"min_delay": 10000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:ash"
+			},
+			"probability": 0.015
+		}
+	},
+	"spawners": {
+		"monster": [
+			
+			{
+				"type": "minecraft:silverfish",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 35,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"creature": [
+			{
+				"type": "minecraft:cow",
+				"weight": 12,
+				"minCount": 0,
+				"maxCount": 2
+			}
+		],
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {
+		
+		"minecraft:silverfish": {
+			"energy_budget": 0.3,
+			"charge": 0.5
+		},
+		
+		"minecraft:enderman": {
+			"energy_budget": 0.5,
+			"charge": 0.2
+		}
+	},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:canyon",
+			"minecraft:nether_cave"
+		]
+	},
+	"features": [
+		[],
+		[
+			"paradise:quarry_pit"
+		],
+		[
+		],
+		[
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
+		],
+		[],
+		[],
+		[
+
+			"paradise:ore_paradise_debris",
+			"paradise:ore_quartz",
+			"paradise:ore_gold"
+		],
+		[],
+		[],
+		[
+			"paradise:patch_drill_holes"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

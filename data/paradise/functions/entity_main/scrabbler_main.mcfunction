@@ -1,0 +1,2 @@
+execute as @s[nbt={Motion:[0d,0d,0d]},nbt=!{AngerTime:0}] run scoreboard players add @s scrabbler_mine_cool 1
+execute as @s[scores={scrabbler_mine_cool=100..}] at @s run function paradise:scrabbler/scrabbler_mine

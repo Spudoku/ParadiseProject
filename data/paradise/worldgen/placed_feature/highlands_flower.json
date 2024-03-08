@@ -1,0 +1,16 @@
+{
+    "feature": "paradise:highlands_flower",
+    "placement": [
+        {
+            "type": "count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        }
+    ]
+}

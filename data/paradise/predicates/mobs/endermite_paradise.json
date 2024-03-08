@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:endermite",
+    "location": {
+      "dimension": "paradise:the_paradise"
+    }
+  }
+}

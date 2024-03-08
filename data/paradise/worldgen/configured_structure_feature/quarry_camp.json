@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "start_pool": "paradise:quarry/office",
+        "size": 7
+    },
+    "biomes": "#paradise:has_quarry_camp",
+    "adapt_noise": true,
+    "spawn_overrides": {}
+}

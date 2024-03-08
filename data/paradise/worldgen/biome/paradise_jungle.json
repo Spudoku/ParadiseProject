@@ -1,0 +1,124 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "rain",
+	"category": "plains",
+	"effects": {
+	  "sky_color": 4851566,
+	  "fog_color": 4851566,
+	  "water_color": 4851566,
+	  "water_fog_color": 4851566,
+	  "grass_color": 2928923,
+	  "foliage_color": 2928923,
+	  "mood_sound": {
+		"sound": "minecraft:ambient.cave",
+		"tick_delay": 6000,
+		"block_search_extent": 8,
+		"offset": 2
+	  },
+	  "additions_sound": {
+		"sound": "minecraft:ambient.warped_forest.additions",
+		"tick_chance": 0.003
+	  },
+	  "music": {
+		"sound": "minecraft:music.nether.crimson_forest",
+		"min_delay": 10000,
+		"max_delay": 18000,
+		"replace_current_music": false
+	  },
+	  "particle": {
+		"options": {
+		  "type": "minecraft:dripping_obsidian_tear"
+		},
+		"probability": 0.00125
+	  }
+	},
+	"spawners": {
+	  "monster": [
+		{
+			"type": "minecraft:hoglin",
+			"weight": 4,
+			"minCount": 2,
+			"maxCount": 3
+		},
+		{
+		  "type": "minecraft:silverfish",
+		  "weight": 4,
+		  "minCount": 1,
+		  "maxCount": 1
+		},
+		{
+		  "type": "minecraft:enderman",
+		  "weight": 35,
+		  "minCount": 1,
+		  "maxCount": 1
+		}
+	  ],
+	  "ambient": [
+		{
+		  "type": "minecraft:bat",
+		  "weight": 10,
+		  "minCount": 8,
+		  "maxCount": 8
+		}
+	  ],
+	  "water_creature": [],
+	  "water_ambient": [
+		{
+		  "type": "minecraft:cod",
+		  "weight": 15,
+		  "minCount": 3,
+		  "maxCount": 6
+		}
+	  ],
+	  "misc": []
+	},
+	"spawn_costs": {
+
+	  "minecraft:silverfish": {
+		"energy_budget": 0.12,
+		"charge": 0.5
+	  },
+
+	  "minecraft:enderman": {
+		"energy_budget": 0.5,
+		"charge": 0.2
+	  },
+	  "minecraft:hoglin": {
+		"energy_budget": 0.1,
+		"charge": 0.01
+	}
+	},
+	"carvers": {},
+	"features": [
+	  [],
+	  [],
+	  [
+		"paradise:moss_boulder"
+	  ],
+	  [
+		"minecraft:monster_room",
+		"minecraft:monster_room_deep"
+	  ],
+	  [],
+	  [],
+	  [
+		"paradise:ore_paradise_debris",
+		"paradise:ore_quartz",
+		"paradise:ore_gold"
+	  ],
+	  [],
+	  [],
+	  [
+		"minecraft:red_mushroom_normal",
+		"minecraft:brown_mushroom_normal",
+		"minecraft:kelp_warm",
+		"paradise:secluded_ooblum",
+		"paradise:jungle_trees"
+	  ],
+	  [
+		"minecraft:freeze_top_layer"
+	  ]
+	]
+  }
+  

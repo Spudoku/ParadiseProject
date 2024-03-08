@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "start_pool": "paradise:hermit/huts",
+        "size": 3
+    },
+    "biomes": "#paradise:has_hermit",
+    "adapt_noise": true,
+    "spawn_overrides": {}
+}

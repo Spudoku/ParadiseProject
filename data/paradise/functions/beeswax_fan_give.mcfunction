@@ -1,0 +1,5 @@
+recipe take @s paradise:beeswax_fan
+advancement revoke @s only paradise:beeswax_fan_adv
+clear @s knowledge_book
+give @s carrot_on_a_stick{CustomModelData:5,display:{Name:'[{"text":"Beeswax War Fan","italic":false,"color":"gold"}]',Lore:['[{"text":"Right click to send forth a ","italic":false},{"text":"Cloud of Healing","color":"light_purple"},{"text":"","color":"dark_purple"}]','[{"text":"healing yourself and allies, including most non-hostile mobs.","italic":false,"color":"dark_purple"}]','[{"text":"Monsters are slown down and weakened.","italic":false,"color":"dark_purple"}]','[{"text":"Consumes a single honey comb per use.","italic":false,"color":"dark_purple"}]']},Enchantments:[{id:"knockback",lvl:2}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-121228,74764,1129,-149528],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:-2,Operation:0,UUID:[I;-121228,74864,1129,-149728],Slot:mainhand,Name:"generic.attack_speed"}]} 1
+

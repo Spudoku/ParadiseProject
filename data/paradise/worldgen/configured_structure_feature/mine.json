@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "config": {
+        "start_pool": "paradise:mine/storage",
+        "size": 7
+    },
+    "biomes": "#paradise:has_quarry_camp",
+    "adapt_noise": true,
+    "spawn_overrides": {}
+}

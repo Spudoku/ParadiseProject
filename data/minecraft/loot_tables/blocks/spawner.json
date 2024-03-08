@@ -1,0 +1,150 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_fortune:1}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_fortune:2}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_fortune:3}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:0}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:1}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:2}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:3}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:4}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:5}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mined_with_pickaxe:6}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {}
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{silked:1b}",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,custom_block:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

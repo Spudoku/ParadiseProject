@@ -1,0 +1,15 @@
+{
+  "name": "paradise:village/shipping/streets",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 45,
+      "element": {
+        "location": "paradise:village/shipping/shipping_center",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

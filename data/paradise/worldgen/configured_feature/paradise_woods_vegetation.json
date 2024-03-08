@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.5,
+				"feature": "paradise:ooblum_tree"
+			},
+			{
+				"chance": 0.2,
+				"feature": "paradise:ooblum_tree_bee"
+			},
+			{
+				"chance": 0.3,
+				"feature": "paradise:strange_ooblum"
+			}
+		],
+		"default": "paradise:ooblum_tree"
+	}
+}

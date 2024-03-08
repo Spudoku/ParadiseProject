@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull"
+		},
+		"title": "The Only Cure",
+		"description": "Cure yourself from The Vedetta curse with The Total Tonic",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "paradise:adventure/total_tonic",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:potion"
+					],
+					"nbt": "{CustomModelData:100}"
+				}
+			}
+		},
+		"effect": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:wither": {
+						"visible": false
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

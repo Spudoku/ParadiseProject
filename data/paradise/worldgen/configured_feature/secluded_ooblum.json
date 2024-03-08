@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:shroomlight"
+		},
+		"decor_state": {
+			"Name": "minecraft:purple_stained_glass"
+		},
+		"stem_state": {
+			"Name": "minecraft:jungle_wood",
+			"Properties": {
+				"axis": "y"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:grass_block",
+			"Properties": {
+				"snowy": "false"
+			}
+		},
+		"planted": false
+	}
+}

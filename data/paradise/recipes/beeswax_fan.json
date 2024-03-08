@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "XO ",
+    "@X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:honeycomb_block"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "O": {
+      "item": "minecraft:end_crystal"
+    },
+    "@": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "tag": "{Recipes:[]}"
+  }
+}

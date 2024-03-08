@@ -1,0 +1,1 @@
+data modify entity @s AngryAt set from entity @e[type=#auto:auto_enemies,tag=!auto,team=!auto,tag=!sentry,distance=..24,sort=nearest,limit=1] UUID

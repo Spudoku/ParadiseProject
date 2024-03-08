@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##X",
+    "#O#",
+    "O##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:structure_block"
+    },
+    "X": {
+      "item": "minecraft:command_block"
+    },
+    "O": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "tag": "{Recipes:[]}"
+  }
+}

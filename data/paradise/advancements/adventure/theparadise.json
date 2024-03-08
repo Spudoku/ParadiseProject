@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Paradise Lost",
+            "color": "dark_purple",
+            "italic": true
+        },
+        "description": {
+            "text": "Enter The Paradise for the first time."
+        },
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterparadise": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "paradise:the_paradise"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 500
+    },
+    "parent": "paradise:adventure/root"
+}

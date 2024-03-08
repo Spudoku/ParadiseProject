@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dash n' Slash",
+            "color": "black"
+        },
+        "description": {
+            "text": "Craft a Phantasmic Dagger, a ninja's dream weapon."
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "phasedagger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:3}",
+                        "items": [
+                            "minecraft:carrot_on_a_stick"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "paradise:adventure/ancient_relic"
+}

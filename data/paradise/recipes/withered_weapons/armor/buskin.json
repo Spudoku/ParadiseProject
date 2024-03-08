@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:phantom_membrane"
+		},
+		{
+			"item": "minecraft:phantom_membrane"
+		},
+		{
+			"item": "minecraft:gold_block"
+		},
+		{
+			"item": "minecraft:debug_stick"
+		},
+		{
+			"item": "minecraft:gold_block"
+		},
+		{
+			"item": "minecraft:diamond_boots"
+		}
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

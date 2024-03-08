@@ -1,0 +1,4 @@
+recipe take @s paradise:withered_weapons/armor/leggings
+advancement revoke @s only paradise:withered_weapons/armor/leggings
+clear @s knowledge_book
+give @s leather_leggings{Enchantments:[{id:"minecraft:unbreaking",lvl:4s}],display:{Name:'{"text":"Leggings of the Lurker","color":"black","italic":false}',Lore:['{"text":"For those biding their time..."}','{"text":"Hide well..."}'],color:2490368},RepairCost:3,CustomModelData:1,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:1,Operation:0,UUID:[I;741547655,-1705033282,-1561869452,-1456798026],Slot:"legs"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.06,Operation:0,UUID:[I;-1275109656,989414491,-1852434883,1564432833],Slot:"legs"}]} 1

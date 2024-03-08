@@ -1,0 +1,4 @@
+recipe take @s paradise:withered_weapons/armor/visage
+advancement revoke @s only paradise:withered_weapons/armor/visage
+clear @s knowledge_book
+give @s leather_helmet{Enchantments:[{id:"minecraft:unbreaking",lvl:4s}],display:{Name:'{"text":"Vengeful Visage","color":"black","italic":false}',Lore:['{"text":"Screws the wearer\'s"}','{"text":"face in rage."}'],color:2490368},RepairCost:3,CustomModelData:1,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;1930686888,1020940182,-2109005097,929829446],Slot:"head"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5,Operation:0,UUID:[I;17928456,996032985,-1833392093,1541761341],Slot:"head"}]} 1

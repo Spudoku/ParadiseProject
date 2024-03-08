@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Village and Pillage",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Find and enter at least one of the many loot-laden structures  in The Paradise."
+        },
+        "icon": {
+            "item": "minecraft:end_stone_bricks"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "findvillage": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "paradise:the_paradise",
+                "feature": "village"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "paradise:adventure/theparadise"
+}

@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:1}"
+		},
+		"title": "Ungodly Ingredient, Used",
+		"description": "Use an Undying Essence to craft something powerful yet terrible",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "paradise:adventure/undying_essence",
+	"criteria": {
+		"craft0": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/armor/buskin"
+			}
+		},
+		"craft1": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/armor/leggings"
+			}
+		},
+		"craft2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/armor/shroud"
+			}
+		},
+		"craft3": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/armor/visage"
+			}
+		},
+		"craft4": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/fury"
+			}
+		},
+		"craft5": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/gauntlet"
+			}
+		},
+		"craft6": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "paradise:withered_weapons/vendetta"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft0",
+			"craft1",
+			"craft2",
+			"craft3",
+			"craft4",
+			"craft5",
+			"craft6"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

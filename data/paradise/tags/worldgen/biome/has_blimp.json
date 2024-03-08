@@ -1,0 +1,16 @@
+{
+    "values": [
+        "paradise:paradise_plains",
+        "paradise:paradise_woods",
+	"paradise:paradise_highlands",
+	"paradise:paradise_swamp",
+	"paradise:paradise_jungle",
+	"paradise:quarry",
+	"paradise:quarry_chasm",
+	"paradise:ancient_grove",
+	"minecraft:end_barrens",
+	"minecraft:end_highlands",
+	"minecraft:end_midlands",
+	"minecraft:small_end_islands"
+    ]
+}

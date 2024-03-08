@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:jungle_bush",
+        "chance": 0.2
+      },
+      {
+        "feature": "paradise:plankleaf",
+        "chance": 0.1
+      },
+      {
+        "feature": "paradise:ooblum_tree_stunted",
+        "chance": 0.125
+      },
+      {
+        "feature": "paradise:plankleaf_vines",
+        "chance": 0.5
+      },
+      {
+        "feature": "paradise:plankleaf_gnarled",
+        "chance": 0.2
+      }
+    ],
+    "default": "paradise:plankleaf"
+  }
+}

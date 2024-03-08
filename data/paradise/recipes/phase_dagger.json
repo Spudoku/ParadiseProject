@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    "XOX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:ender_pearl"
+    },
+    "O": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "tag": "{Recipes:[]}"
+  }
+}
+

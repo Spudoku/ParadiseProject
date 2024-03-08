@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BCB",
+        "LRL"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "C": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

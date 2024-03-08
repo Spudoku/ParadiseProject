@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_skeleton_skull",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance_with_looting",
+							"chance": 0.01,
+							"looting_multiplier": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:debug_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "What remains of a withered soul… will you harness it?"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "Undying Essence"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_rose",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				}
+			]
+		}
+	]
+}

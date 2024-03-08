@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "levi:lesser_levitite_flask"
+      }
+    }
+  },
+  "rewards": {
+    "function": "levi:give/lesser_levitite_flask"
+  }
+}

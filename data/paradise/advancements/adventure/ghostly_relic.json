@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Sneaky Treasures",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Defeat a Stealthy Spirit and obtain its Relic"
+        },
+        "icon": {
+            "item": "minecraft:structure_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ghostlyrelic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "paradise:adventure/ancient_relic"
+}

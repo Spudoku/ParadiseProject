@@ -1,0 +1,8 @@
+{
+    "values": [
+        "paradise:load",
+	"levi:init",
+	"sp:init",
+"auto:load"
+    ]
+}

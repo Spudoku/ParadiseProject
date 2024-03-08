@@ -1,0 +1,24 @@
+{
+  "name": "paradise:village/ranged_guards",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 24,
+      "element": {
+        "location": "paradise:village/guards/guard_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "location": "paradise:village/guards/guard_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

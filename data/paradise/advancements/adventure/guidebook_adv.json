@@ -1,0 +1,11 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "guidebook": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "paradise:general_guidebook_give"
+    }
+}

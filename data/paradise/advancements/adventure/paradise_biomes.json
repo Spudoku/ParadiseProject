@@ -1,0 +1,137 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "text": "Scenic Views",
+      "color": "dark_green"
+    },
+    "description": {
+      "text": "Visit every biome in The Paradise",
+      "color": "white"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "paradise:adventure/theparadise",
+  "criteria": {
+    "paradisewoods": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_woods"
+        }
+      }
+    },
+    "paradiseplains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_plains"
+        }
+      }
+    },
+    "quarry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:quarry"
+        }
+      }
+    },
+    "paradiseswamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_swamp"
+        }
+      }
+    },
+    "paradiselake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_lake"
+        }
+      }
+    },
+    "paradisehighlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_highlands"
+        }
+      }
+    },
+    "paradisejungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_highlands"
+        }
+      }
+    },
+    "ancient_grove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:ancient_grove"
+        }
+      }
+    },
+    "shroomy_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:shroomy_caves"
+        }
+      }
+    },
+    "paradise_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "paradise:paradise_caves"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "paradiseplains"
+    ],
+    [
+      "paradisewoods"
+    ],
+    [
+      "quarry"
+    ],
+    [
+      "paradiselake"
+    ],
+    [
+      "paradiseswamp"
+    ],
+    [
+      "paradisehighlands"
+    ],
+    [
+      "paradisejungle"
+    ],
+    [
+      "ancient_grove"
+    ],
+    [
+      "shroomy_caves"
+    ],
+    [
+      "paradise_caves"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

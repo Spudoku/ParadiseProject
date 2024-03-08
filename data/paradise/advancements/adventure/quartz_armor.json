@@ -1,0 +1,85 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Spiky Boomy",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Craft one piece of Quartz Armor."
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "quartzhelmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:iron_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "quartzchestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "quartzleggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "quartzboots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:iron_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "quartzhelmet",
+            "quartzchestplate",
+            "quartzleggings",
+            "quartzboots"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "paradise:adventure/armor_sets"
+}

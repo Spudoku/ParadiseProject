@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "paradise:armor/quartz_boots_wear"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "paradise:armor/quartz_helmet_wear"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "paradise:armor/quartz_chestplate_wear"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "paradise:armor/quartz_leggings_wear"
+		}
+	]
+}

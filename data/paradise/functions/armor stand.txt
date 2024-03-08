@@ -1,0 +1,2 @@
+give @p minecraft:armor_stand{EntityTag:{Marker:1,Tags:["tag"]}}
+kill @e[type=armor_stand,nbt={Marker:1b},distance=..5]

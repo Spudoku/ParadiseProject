@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "paradise:hermit_hut",
+            "weight": 6
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 13,
+        "separation": 8,
+        "salt": 987654321
+    }
+}

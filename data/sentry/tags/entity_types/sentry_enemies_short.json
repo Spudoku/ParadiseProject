@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:phantom",
+	"minecraft:vex",
+	"minecraft:spider",
+	"minecraft:slime",
+	"minecraft:magma_cube",
+	"minecraft:ghast",
+	"minecraft:guardian",
+	"minecraft:endermite",
+	"minecraft:silverfish",
+	"minecraft:cave_spider",
+	"minecraft:shulker"
+  ]
+}

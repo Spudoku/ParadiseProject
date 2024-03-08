@@ -1,0 +1,137 @@
+{
+	"temperature": 0.4,
+	"downfall": 0.3,
+	"precipitation": "rain",
+	"category": "extreme_hills",
+	"effects": {
+		"sky_color": 4851566,
+		"fog_color": 4851566,
+		"water_color": 4851566,
+		"water_fog_color": 4851566,
+		"grass_color": 2928923,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.soul_sand_valley.additions",
+			"tick_chance": 0.002
+		},
+		"music": {
+			"sound": "minecraft:music.nether.crimson_forest",
+			"min_delay": 10000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:dripping_obsidian_tear"
+			},
+			"probability": 0.00125
+		}
+	},
+	"spawners": {
+		"monster": [
+
+			{
+				"type": "minecraft:silverfish",
+				"weight": 4,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 35,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"creature": [
+			{
+				"type": "minecraft:sheep",
+				"weight": 12,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:chicken",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:cow",
+				"weight": 8,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"water_creature": [],
+		"water_ambient": [
+			{
+				"type": "minecraft:cod",
+				"weight": 15,
+				"minCount": 3,
+				"maxCount": 6
+			}
+		],
+		"misc": []
+	},
+	"spawn_costs": {
+
+
+		"minecraft:silverfish": {
+			"energy_budget": 0.12,
+			"charge": 0.5
+		},
+		"minecraft:enderman": {
+			"energy_budget": 0.5,
+			"charge": 0.2
+		}
+	},
+	"carvers": {
+		"air": []
+	},
+	"features": [
+		[],
+		[
+			
+		],
+		[
+			"paradise:forest_rock_modified"
+		],
+		[
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
+		],
+		[],
+		[],
+		[
+
+			"paradise:ore_paradise_debris",
+			"paradise:ore_quartz",
+			"paradise:ore_gold"
+		],
+		[],
+		[],
+		[
+			"paradise:highlands_vegetation",
+			"paradise:highlands_flower",
+			"minecraft:red_mushroom_normal",
+			"minecraft:brown_mushroom_normal"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

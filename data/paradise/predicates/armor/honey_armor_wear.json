@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "head": {
+        "nbt": "{CustomModelData:1}",
+        "items": [
+          "minecraft:golden_helmet"
+        ]
+      },
+      "legs": {
+        "nbt": "{CustomModelData:1}",
+        "items": [
+          "minecraft:golden_leggings"
+        ]
+      },
+      "chest": {
+        "nbt": "{CustomModelData:1}",
+        "items": [
+          "minecraft:golden_chestplate"
+        ]
+      },
+      "feet": {
+        "nbt": "{CustomModelData:1}",
+        "items": [
+          "minecraft:golden_boots"
+        ]
+      }
+    }
+  }
+}

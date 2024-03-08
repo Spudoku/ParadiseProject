@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "rod craft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "paradise:withered_weapons/armor/buskin"
+            }
+        }
+    },
+    "rewards": {
+        "function": "paradise:give/withered_weapons/armor/buskin"
+    }
+}

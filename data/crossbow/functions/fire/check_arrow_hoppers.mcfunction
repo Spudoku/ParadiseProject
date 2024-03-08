@@ -1,0 +1,1 @@
+execute as @p store result score @s hopper_count run clear @s bundle{CustomModelData:1} 0

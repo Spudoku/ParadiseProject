@@ -1,0 +1,51 @@
+{
+  "name": "paradise:shrine/turns",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 16,
+      "element": {
+        "location": "paradise:shrine/loot/chamber_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "paradise:shrine/loot/chamber_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "paradise:shrine/loot/chamber_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "paradise:shrine/loot/chamber_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "paradise:shrine/loot/chamber_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

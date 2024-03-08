@@ -1,0 +1,22 @@
+{
+  "name": "paradise:village/shipping/streets",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 45,
+      "element": {
+        "location": "paradise:village/shipping/streets/housing_street",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

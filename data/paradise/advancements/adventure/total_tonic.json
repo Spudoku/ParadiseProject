@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{CustomModelData:100}"
+		},
+		"title": "A Potion Moste Potente",
+		"description": "Craft the Total Tonic, a brew that can cure anything.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "paradise:adventure/root",
+	"criteria": {
+		"AncientRelic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:potion"
+						],
+						"nbt": "{CustomModelData:100}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 25
+	}
+}

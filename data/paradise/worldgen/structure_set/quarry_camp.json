@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "paradise:quarry_camp",
+            "weight": 6
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 7,
+        "salt": 5393935714
+    }
+}

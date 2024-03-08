@@ -1,0 +1,84 @@
+{
+	"temperature": 0.35,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"category": "plains",
+	"effects": {
+		"sky_color": 1840185,
+		"fog_color": 1840185,
+		"water_color": 1840185,
+		"water_fog_color": 1840185,
+		"grass_color": 3154260,
+		"foliage_color": 3154260,
+		"mood_sound": {
+			"sound": "ambient.soul_sand_valley.mood",
+			"tick_delay": 2400,
+			"block_search_extent": 8,
+			"offset": 1
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.nether_wastes.additions",
+			"tick_chance": 0.005
+		},
+		"music": {
+			"sound": "minecraft:music.end",
+			"min_delay": 20000,
+			"max_delay": 30000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:dripping_obsidian_tear"
+			},
+			"probability": 0.01
+		}
+	},
+	"spawners": {
+		"monster": [
+
+		],
+		"creature": [],
+		"ambient": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {
+
+
+	},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:canyon",
+			"minecraft:nether_cave"
+		]
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
+		],
+		[
+			"minecraft:ice_patch"
+		],
+		[],
+		[
+
+			"paradise:ore_paradise_debris",
+			"paradise:ore_quartz",
+			"paradise:ore_gold"
+		],
+		[],
+		[],
+		[
+			
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

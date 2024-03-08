@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"EGE",
+		"GUG",
+		" G "
+	],
+	"key": {
+		"E": {
+			"item": "minecraft:emerald"
+		},
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"U": {
+			"item": "minecraft:debug_stick"
+		}
+	},
+	"result": {
+		"item": "minecraft:totem_of_undying",
+		"count": 1
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:amethyst_shard"
+		},
+		{
+			"item": "minecraft:diamond"
+		},
+		{
+			"item": "minecraft:emerald"
+		},
+		{
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"item": "minecraft:gold_block"
+		},
+		{
+			"item": "minecraft:debug_stick"
+		}
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

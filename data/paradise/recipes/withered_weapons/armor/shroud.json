@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:crying_obsidian"
+		},
+		{
+			"item": "minecraft:crying_obsidian"
+		},
+		{
+			"item": "minecraft:debug_stick"
+		},
+		{
+			"item": "minecraft:diamond_chestplate"
+		}
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

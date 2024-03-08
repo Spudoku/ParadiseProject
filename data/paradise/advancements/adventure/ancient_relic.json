@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Gizmos of old",
+            "color": "gold",
+            "italic": false
+        },
+        "description": {
+            "text": "Obtain an Ancient Relic, a powerful artifact from long ago."
+        },
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "AncientRelic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:command_block"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "paradise:adventure/theparadise"
+}

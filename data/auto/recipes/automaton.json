@@ -1,0 +1,33 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:armor_stand"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:command_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "tag": "{Recipes:[]}"
+  }
+}

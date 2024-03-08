@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chain_command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Levitite Dust"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "paradise:the_paradise"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:purple_stained_glass",
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "paradise:the_paradise"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

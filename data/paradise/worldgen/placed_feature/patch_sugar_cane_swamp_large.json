@@ -1,0 +1,16 @@
+{
+    "feature": "paradise:patch_sugar_cane_swamp_large",
+    "placement": [
+        {
+            "type": "count",
+            "count": 10
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+recipe take @s paradise:withered_weapons/armor/buskin
+advancement revoke @s only paradise:withered_weapons/armor/buskin
+clear @s knowledge_book
+give @s leather_boots{display:{Name:'{"text":"Brazen Buskins","color":"black","italic":false}',Lore:['{"text":"Our feet lead the way towards bravery..."}','{"text":"Or doom..."}'],color:2490368},RepairCost:3,CustomModelData:1,Enchantments:[{id:"minecraft:feather_falling",lvl:5s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;-1213394525,-25736046,-1668695588,-691022190],Slot:"feet"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.3,Operation:0,UUID:[I;-1179075836,1969899847,-1719136887,108668120],Slot:"feet"}]} 1

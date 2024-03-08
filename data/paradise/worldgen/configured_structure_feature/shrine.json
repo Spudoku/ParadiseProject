@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "config": {
+        "start_pool": "paradise:shrine/base",
+        "size": 4
+    },
+    "biomes": "#paradise:has_shrine",
+    "adapt_noise": false,
+    "spawn_overrides": {}
+}

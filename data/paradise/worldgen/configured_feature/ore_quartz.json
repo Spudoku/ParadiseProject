@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 32,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "block": "minecraft:end_stone",
+          "probability": 0.5,
+          "predicate_type": "minecraft:random_block_match"
+        },
+        "state": {
+          "Name": "minecraft:quartz_block"
+        }
+      }
+    ]
+  }
+}

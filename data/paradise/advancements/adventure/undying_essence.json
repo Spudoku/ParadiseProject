@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:debug_stick",
+			"nbt": "{CustomModelData:1}"
+		},
+		"title": "An Ungodly Ingredient",
+		"description": "Harvest an Undying Essence from a Withered Spirit",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "paradise:adventure/root",
+	"criteria": {
+		"harvest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:debug_stick"
+						],
+						"nbt": "{CustomModelData:1}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 10
+	}
+}

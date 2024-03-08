@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:glistering_melon_slice"
+		},
+		{
+			"item": "minecraft:crimson_fungus"
+		},
+		{
+			"item": "minecraft:ghast_tear"
+		},
+		{
+			"item": "minecraft:sweet_berries"
+		},
+		{
+			"item": "minecraft:honey_bottle"
+		}
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

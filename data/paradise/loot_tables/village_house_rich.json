@@ -1,0 +1,284 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Levitite Mine Explorer Map",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "paradise:on_mine_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 200,
+							"skip_existing_chunks": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "paradise:on_shrine_maps",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 200,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Shrine Explorer Map",
+								"italic": false
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.025
+				}
+			]
+		},
+    {
+      "rolls": {
+        "min": 4,
+        "max": 8
+      },
+      "bonus_rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 20,
+          "name": "minecraft:end_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 20,
+          "name": "minecraft:dragon_breath"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 10,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 10,
+          "name": "minecraft:end_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": 2,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 15,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "quality": 2,
+          "name": "minecraft:golden_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 20,
+          "name": "minecraft:music_disc_blocks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 20,
+          "name": "minecraft:music_disc_mellohi"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 20,
+          "name": "minecraft:music_disc_cat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 20,
+          "name": "minecraft:music_disc_11"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 20,
+          "name": "minecraft:music_disc_13"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "quality": 20,
+          "name": "minecraft:music_disc_pigstep"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 20,
+          "name": "minecraft:music_disc_stal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 5,
+          "name": "minecraft:shroomlight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": -5,
+          "name": "minecraft:allium",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "quality": -40,
+          "name": "minecraft:wooden_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -20,
+          "name": "minecraft:beetroot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 15,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 10,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Gold Pence"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

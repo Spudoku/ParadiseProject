@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "levi:levitite_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "levi:give/levitite_block"
+  }
+}

@@ -1,0 +1,1 @@
+give @p item_frame{CustomModelData:2,display:{Name:'[{"text":"Levitite Ore","italic":false,"color":"#660066"}]'},EntityTag:{id:"minecraft:item_frame",Facing:1b,Invulnerable:1b,Invisible:1b,Silent:1b,Fixed:1b,Tags:["custom_block","unset"],Item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1}}}}

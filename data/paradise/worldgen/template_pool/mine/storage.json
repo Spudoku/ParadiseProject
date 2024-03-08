@@ -1,0 +1,15 @@
+{
+	"name": "paradise:mine/storage",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 50,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "paradise:mine/storage"
+			}
+		}
+	]
+}

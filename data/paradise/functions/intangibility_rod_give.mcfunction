@@ -1,0 +1,4 @@
+recipe take @s paradise:intangibility_rod
+advancement revoke @s only paradise:intangibility_rod_adv
+clear @s knowledge_book
+give @s carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"Rod of Intangibility","italic":false,"color":"light_purple"}]',Lore:['[{"text":"Fueled with ","italic":false},{"text":"Ghostly Relics","color":"gold"},{"text":".","color":"dark_purple"}]','[{"text":"Right Click to activate Intangibility.","italic":false,"color":"dark_purple"}]','[{"text":"Once started, it only stops","italic":false,"color":"dark_purple"}]','[{"text":"when you run out of ","italic":false,"color":"dark_purple"},{"text":"Relics","color":"gold"},{"text":".","color":"dark_purple"}]']},Enchantments:[{}]} 1

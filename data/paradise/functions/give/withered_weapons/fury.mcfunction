@@ -1,0 +1,4 @@
+recipe take @s paradise:withered_weapons/fury
+advancement revoke @s only paradise:withered_weapons/fury
+clear @s knowledge_book
+give @s netherite_sword{display:{Name:'{"text":"Fury of the Forsaken","color":"black","italic":false}',Lore:['{"text":"The stewed rage of those slain"}','{"text":"by the Withers imbues this sword."}']},RepairCost:3,CustomModelData:1,Enchantments:[{id:"minecraft:sweeping",lvl:20s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5,Operation:0,UUID:[I;535245824,1300119973,-2083567440,1966591571],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:5,Operation:0,UUID:[I;352791470,1912885056,-1196929727,-1392936646],Slot:"mainhand"}]} 1

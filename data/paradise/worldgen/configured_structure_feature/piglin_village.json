@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "start_pool": "paradise:village/starts",
+        "size": 7
+    },
+    "biomes": "#paradise:has_piglin_village",
+    "adapt_noise": true,
+    "spawn_overrides": {}
+}

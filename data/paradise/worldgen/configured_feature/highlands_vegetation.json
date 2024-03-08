@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "paradise:hardleaf_tree",
+        "chance": 0.3
+      },
+      {
+        "feature": "paradise:ooblum_tree",
+        "chance": 0.005
+      },
+      {
+        "feature": "paradise:ooblum_tree_stunted",
+        "chance": 0.05
+      }
+    ],
+    "default": "paradise:hardleaf_tree"
+  }
+}

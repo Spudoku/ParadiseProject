@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "paradise:shrine",
+            "weight": 6
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 64,
+        "separation": 14,
+        "salt": 552479135
+    }
+}

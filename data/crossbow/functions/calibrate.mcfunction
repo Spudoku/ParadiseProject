@@ -1,0 +1,1 @@
+scoreboard players set @a crossbow_cool 0

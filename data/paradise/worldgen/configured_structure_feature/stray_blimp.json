@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "start_pool": "paradise:stray_blimp/blimp",
+        "size": 1
+    },
+    "biomes": "#paradise:has_blimp",
+    "adapt_noise": false,
+    "spawn_overrides": {}
+}

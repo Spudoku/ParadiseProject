@@ -1,0 +1,86 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Drippy Gooey",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Craft one piece of Honey Armor"
+        },
+        "icon": {
+            "item": "minecraft:golden_chestplate",
+            "nbt": "{CustomModelData:1}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "honeyhelmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:golden_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "honeychestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:golden_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "honeyleggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:golden_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "honeyboots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomModelData:1}",
+                        "items": [
+                            "minecraft:golden_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "honeyhelmet",
+            "honeychestplate",
+            "honeyleggings",
+            "honeyboots"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "paradise:adventure/armor_sets"
+}

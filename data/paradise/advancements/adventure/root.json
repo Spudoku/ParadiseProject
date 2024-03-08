@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Paradise of Old",
+            "color": "green",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "",
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:shroomlight"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+    },
+    "criteria": {
+        "parapack": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
